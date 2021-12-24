@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    color:white;
+}
+body{
+    background-color: #221C48;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    background-color: #141032;
+}
+
+.right-header ul, .left-header ul, .box2 ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.right-header ul li, .left-header ul li{
+    margin-left:50px;
+    margin-right: 50px;
+}
+
+.right-header ul li a, .left-header ul li a{
+    text-decoration: none;
+}
+
+/*----------------------------------------*/
+
+.hitsContainer{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3%;
+    padding: 3%;
+    background-color: rgb(119,115,142);
+    border-radius: 20px;
+}
+.photo{
+    width: 200px;
+    height: 300px;
+  
+}
+.imgdiv{
+    margin: 0.5%;
+}
+
+.hitstext{
+  width: 80%;
+  font-size: 30px;
+}
+
+.hitstextContainer{
+  margin-bottom: 21%;
+}
+
+/*----------------------------------------*/
+
+.comedyContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4%;
+    padding: 1%;
+    background-color: rgb(9,3,44);
+}
+
+.comedytextContainer{
+    position: relative;
+    right: 12%;
+  }
+  .comedytext{
+    width: 80%;
+    font-size: 30px;
+  }
+
+  .photo2Container{
+      border: 2px solid white;
+      padding: 4%;
+      margin: 2%;
+      margin-right: 8%;
+  }
+
+  /*----------------------------------------*/
+
+  .actionContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4%;
+    padding: 1%;
+    background-color: rgb(9,3,44);
+}
+
+.actiontextContainer{
+    position: relative;
+    left: 16%;
+  }
+  .actiontext{
+    width: 80%;
+    font-size: 30px;
+  }
+
+  .photo3Container{
+      border: 2px solid white;
+      padding: 4%;
+      margin: 2%;
+      margin-right: 8%;
+  }
