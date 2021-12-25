@@ -36,10 +36,12 @@
         <div class="second-main">
             <div class="movies">
                 <ul>
-                    <li><img class="movie" src="../media/aksionphoto1.jpg"></li>
-                    <li><img class="movie" src="../media/gk.jpg"></li>
-                    <li><img class="movie" src="../media/w.jpg"></li>
-                    <li><img class="movie" src="../media/tj.jpg"></li>
+                    <li><button class="b1" type="radio" onclick="return validate2()" ></button></li>
+                    <li><img name='pic1' class="movie" src="../media/aksionphoto1.jpg"></li>
+                    <li><img name='pic2' class="movie" src="../media/gk.jpg"></li>
+                    <li><img name='pic3' class="movie" src="../media/w.jpg"></li>
+                    <li><img name='pic4' class="movie" src="../media/tj.jpg"></li>
+                    <li><button class="b1" type="radio" onclick="return validate1()"></button></li>
                 </ul>
             </div>
         </div>
@@ -95,3 +97,121 @@
         </footer>
     </body>
 </html>
+
+<script>
+    var src = [];
+    
+    src[0] = './media/tj.jpg';
+    src[1] = '..';
+    src[2] = '..';
+    src[3] = '..';
+
+    src[4] = './media/tj.jpg';
+    src[5] = '..';
+    src[6] = '..';
+    src[7] = '..';
+
+function validate() {
+ 
+
+  document.pic1.src= src[0];
+  document.pic2.src= src[1];
+  document.pic3.src= src[2];
+  document.pic4.src= src[3];
+
+
+}
+i=0;
+         var images = [];
+
+         images[0] = '../media/aksionphoto1.jpg';
+         images[1] = '../media/gk.jpg';
+         images[2] = '../media/w.jpg';
+         images[3] = '../media/tj.jpg';
+
+         images[4] = '../media/triller1.jpg';
+         images[5] = '../media/triller2.jpg';
+         images[6] = '../media/moviephoto1.jpg';
+         images[7] = '../media/moviephoto2.jpg';
+
+         images[8] = '../media/animated1.jpg';
+         images[9] = '../media/animated2.jpg';
+         images[10] = '../media/comedy1.jpg';
+         images[11] = '../media/comedy2.jpg';
+         
+         
+function validate1() {
+         
+         if(i < 4){
+            i=0;
+
+            i++;
+            i++;
+            i++;
+            i++;
+            document.pic1.src= images[i];
+            i++;
+            document.pic2.src= images[i];
+            i++;
+            document.pic3.src= images[i];
+            i++;
+            document.pic4.src= images[i]; // i= 7
+         }
+         else if(i < 8 || i==9 && i > 3 || i==9){
+            i=7;
+            i++;
+            document.pic1.src= images[i];
+            i++;
+            document.pic2.src= images[i];
+            i++;
+            document.pic3.src= images[i];
+            i++;
+            document.pic4.src= images[i]; // i= 11
+         }
+         else{
+             i=0;
+             document.pic1.src= images[i];
+             i++;
+             document.pic2.src= images[i];
+             i++;
+             document.pic3.src= images[i];
+             i++;
+             document.pic4.src= images[i];
+             i=0;
+     }
+  }
+  function validate2() {
+         if(i < 4){
+             i=images.length -1;
+             document.pic4.src= images[i];
+             i--;
+             document.pic3.src= images[i];
+             i--;
+             document.pic2.src= images[i];
+             i--;
+             document.pic1.src= images[i]; // i = 8
+         }
+         else if((i > 3 && i <= 8 && i !=7) || i == 11){
+             i=4;
+             document.pic1.src= images[i];
+             i++;
+             document.pic2.src= images[i];
+             i++;
+             document.pic3.src= images[i];
+             i++;
+             document.pic4.src= images[i]; 
+             i=9;
+         }
+         else if((i > 8 || i==7) && i != 11){
+            i=0;
+             document.pic1.src= images[i];
+             i++;
+             document.pic2.src= images[i];
+             i++;
+             document.pic3.src= images[i];
+             i++;
+             document.pic4.src= images[i];
+             i=0;
+     }
+  }
+</script>

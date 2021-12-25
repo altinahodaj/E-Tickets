@@ -193,3 +193,11 @@ list-style-type: none;
 ul li a{
     text-decoration: none;
 }
+.b1{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 150px;
+    border-radius: 20px;
+    background: transparent;
+}
