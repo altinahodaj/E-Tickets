@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    background-color: #221c48;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:#141032;
+}
+
+.leftheader-div ul, .rightheader-div ul, .movies ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.leftheader-div ul li, .rightheader-div ul li{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.login{
+    background-color: #141032;
+    width: 500px;
+    height: 500px;
+    margin-top: 80px;
+    margin-left: 50%;
+}
+
+.right-div{
+    position: absolute;
+    left: 19%;
+}
+
+h1{
+    font-family: cursive;
+    margin-top: 5%;
+    font-weight: bolder;
+    color: white;
+}
+
+h4{
+    margin-top: 10%;
+    font-weight: lighter;
+    font-size: x-large;
+    color: white;
+}
+
+p{
+    margin-top: 5%;
+    color: gray;
+}
+
+.register{
+    color: gray;
+    text-decoration: none;
+}
+
+.googlelink{
+    color: #141032;
+    text-decoration: none;
+    padding: 10%;
+}
+
+.rightimg{
+    width: 500px;
+    height: 500px;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    align-items: center;
+}
+
+input{
+    width: 220px;
+    height: 40px;
+    margin-top: 35px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    border: solid 1px white;
+    color: black;
+}
+
+.usericon{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 312px;
+    left: 902px;
+}
+
+.passwordicon{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 391px;
+    left: 904px;
+}
+
+.googleicon{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 596px;
+    left: 950px;
+}
+
+.loginbutton{
+    border-radius: 25px;
+    margin-top: 35px;
+    width: 220px;
+    height: 35px;
+    background-color: gray;
+    text-align: center;
+    border: none;
+}
+
+.googlebutton{
+    border-radius: 25px;
+    margin-top: 20px;
+    width: 220px;
+    height: 35px;
+    background-color: white;
+    text-align: center;
+    border: none;
+    border: solid 1px white;
+    text-align: right;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #221c48;
+}
+
+.footer hr{
+    width: 85%;
+    align-self: center;
+    margin: 30px;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+}
+
+.footer ul li a img{
+    width: 25px;
+    height:25px;
+}
+
+.footer ul li {
+    margin-left: 100px;
+}
+
+ul li {
+list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+}
