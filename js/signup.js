@@ -8,11 +8,11 @@ function validate(){
     var password = document.getElementById("password").value;
     var validimi = regex.test(password);
 
-    if(name == null){
+    if(name == ""){
         alert ("Please enter a name!");
         return false;
     }
-    else if(lastname == null){
+    else if(lastname == ""){
         alert ("Please enter a last name!");
         return false;
     }
@@ -20,12 +20,12 @@ function validate(){
         alert ("Please enter a valid email!");
         return false;
     }
-    else if(creditcard.includes("@")){
-        alert ("Please enter a valid email!");
-        return false;
-    }
     else if(validimi == false){
         alert ("Please enter a valid password!");
+        return false;
+    }
+    else if(creditcard == ""){
+        alert ("Please enter a credit card!");
         return false;
     }
     else{
