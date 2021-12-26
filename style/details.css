@@ -1,10 +1,28 @@
 *{
-    margin:0;
-    padding:0;
-    color:white;
+    margin: 0;
+    padding: 0;
+    color: white;
 }
+
 body{
-    background-color: #221C48;
+    background-color: #221c48;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:#141032;
+}
+
+.leftheader-div ul, .rightheader-div ul, .movies ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.leftheader-div ul li, .rightheader-div ul li{
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 /*----------------------------------------*/
@@ -115,4 +133,41 @@ input.butoni {
 #description{
     width: 80%;
     height: 80px;;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #221c48;
+}
+
+.footer hr{
+    width: 85%;
+    align-self: center;
+    margin: 30px;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+}
+
+.footer ul li a img{
+    width: 25px;
+    height:25px;
+}
+
+.footer ul li {
+    margin-left: 100px;
+}
+
+ul li {
+list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
 }
