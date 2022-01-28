@@ -8,29 +8,15 @@
         <link rel="stylesheet" href="../style/homepage.css">
     </head>
     <body>
-        <div class="header">
-            <div class="leftheader-div">
-                <ul>
-                    <li><a href="./homepage.html"><strong>E - Tickets</strong></a></li>
-                    <li><a href="./homepage.html">Home</a></li>
-                    <li><a href="./movies.html">Movies</a></li>
-                    <li><a href="./contactUs.html">Contact Us</a></li>
-                    <li><a href="./details.html">Details</a></li>
-                </ul>
-            </div>
-            <div class="rightheader-div">
-                <ul>
-                    <li><a href="./logIn.html">LogIn</a></li>
-                    <li><a href="./signUp.html">SignUp</a></li>
-                </ul>
-            </div>
-        </div>
+        <?php
+        include("../reusableCode/header.php");
+        ?>
         <div class="main">
             <div class="first-main">
                 <img class="cinema" src="../media/homepage-cinema.jpg">
                 <p>Buy online tickets for your favourite movies</p>
-                <a class="aboutUs" href="aboutUs.html">About Us</a>
-                <label class="about"><a href="aboutUs.html"><img class="play" src="../media/play.png"></a></label>
+                <a class="aboutUs" href="aboutUs.php">About Us</a>
+                <label class="about"><a href="aboutUs.php"><img class="play" src="../media/play.png"></a></label>
             </div>
         </div>
         <label class="trending">Trending Now</label>

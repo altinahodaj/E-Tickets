@@ -8,22 +8,6 @@ body{
     background-color: #221c48;
 }
 
-.header{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color:#141032;
-}
-
-.leftheader-div ul, .rightheader-div ul, .movies ul{
-    display: flex;
-    list-style-type: none;
-}
-
-.leftheader-div ul li, .rightheader-div ul li{
-    margin-left: 50px;
-    margin-right: 50px;
-}
 
 .main{
     background-color: #221c48;

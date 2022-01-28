@@ -8,23 +8,9 @@
         <link rel="stylesheet" href="../style/signUp.css">
     </head>
     <body>
-        <div class="header">
-            <div class="leftheader-div">
-                <ul>
-                    <li><a href="./homepage.html"><strong>E - Tickets</strong></a></li>
-                    <li><a href="./homepage.html">Home</a></li>
-                    <li><a href="./movies.html">Movies</a></li>
-                    <li><a href="./contactUs.html">Contact Us</a></li>
-                    <li><a href="./details.html">Details</a></li>
-                </ul>
-            </div>
-            <div class="rightheader-div">
-                <ul>
-                    <li><a href="./logIn.html">LogIn</a></li>
-                    <li><a href="./signUp.html">SignUp</a></li>
-                </ul>
-            </div>
-        </div>
+    <?php
+	include("../reusableCode/header.php");
+	?>
         <div class="signup">
             <div class="right-div">
                 <form class="signup-form" onsubmit="return validate()">
