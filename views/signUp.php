@@ -21,7 +21,7 @@
                     <input id="password" type="password" placeholder="Password">
                     <input id="creditcard" type="number" placeholder="Credit Card Number">
                     <button class="signupbutton">Sign Up</button>
-                    <p>Already a member? <a class="login" href="./logIn.html">Log In</a></p>
+                    <p>Already a member? <a class="login" href="./logIn.php">Log In</a></p>
                 </form>
             </div>
             <div class="left-div">

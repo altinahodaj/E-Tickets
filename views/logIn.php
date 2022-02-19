@@ -24,7 +24,7 @@
                     <img class="usericon" src="../media/usericon.png">
                     <img class="passwordicon" src="../media/passwordicon.png">
                     <button class="loginbutton">Log In</button>
-                    <p>Not registered yet? <a class="register" href="./signUp.html">Create an account</a></p>
+                    <p>Not registered yet? <a class="register" href="./signUp.php">Create an account</a></p>
                     <p>or</p>
                     <button class="googlebutton"><img class="googleicon" src="../media/googleicon.png"><a class="googlelink" href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1">Sign in with Google</a></button>
                 </form>

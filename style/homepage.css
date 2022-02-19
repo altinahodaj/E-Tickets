@@ -185,3 +185,394 @@ ul li a{
     border-radius: 20px;
     background: transparent;
 }
+
+@media screen and (max-width: 391px) and (max-height: 845px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color:#141032;
+    }
+    
+    .leftheader-div ul, .rightheader-div ul, .movies ul{
+        display: flex;
+        list-style-type: none;
+    }
+    
+    .leftheader-div ul li, .rightheader-div ul li{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .main{
+        background-color: #221c48;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .first-main{
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cinema{
+        display: flex;
+        width: 258px;
+        height: 175px;
+        margin-left: -110px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 11px;
+    }
+    
+    .main p{
+        position: absolute;
+        left: 27px;
+        top: 107px;
+        font-size: initial;
+        width: 220px;;
+    }
+    
+    .main button{
+        background-color: #B91515;
+        width: 200px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #B91515;
+        font-size: xx-large;
+        position: absolute;
+        left: 400px;
+        top: 500px;
+    }
+    
+    .play{
+        width: 15px;
+        height: 15px;
+        margin: 5px;
+        padding: 9px;
+        padding-left: 3px;
+        padding-top: 2px;
+    }
+    
+    .about{
+        width: 7%;
+        height: 28px;
+        background-color: #B91515;
+        border-radius: 5px;
+        border: 1px solid #B91515;
+        position: absolute;
+        top: 189px;
+        left: 97px;
+    }
+    
+    .aboutUs{
+        border: 1px solid #B91515;
+        background-color: #B91515;
+        font-size: 7pt;
+        position: absolute;
+        left: 27px;
+        top: 189px;
+        text-decoration: none;
+        padding: 15px;
+        border-radius: 5px;
+        width: 11%;
+        height: 11px;
+        text-align: center;
+        padding: 8px;
+    }
+    
+    .trending{
+        font-size: initial;
+        margin-left: 4%;
+        background-color: #221c48;
+    }
+    
+    .second-main{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .movies{
+        width: 258px;
+        background-color: #141032;
+        border-radius: 10px;
+        margin-left: -110px;
+    }
+    
+    .movies ul{
+        justify-content: center;
+        padding: 5px;
+    }
+    
+    .movie{
+        height: 112px;
+        width: 48px;
+        margin: 5px;
+    }
+    
+    .fourth{
+        font-size: initial;
+        margin-left: 2%;
+        padding: 10px;
+    }
+    
+    .third-main{
+        display: flex;
+        justify-content: center;
+        margin-top: 8%;
+        flex-direction: column;
+    }
+    
+    .industry{
+        background-color: #141032;
+        width: 258px;
+        align-self: center;
+        border-radius: 10px;
+        margin-left: -110px;
+    }
+    
+    .industry ul li img{
+        width: 237px;
+        margin-right: 50px;
+    }
+    
+    .industry ul ul{
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+    }
+    
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 20px;
+        background-color: #221c48;
+    }
+    
+    .footer hr{
+        width: 85%;
+        align-self: center;
+        margin: 30px;
+    }
+    
+    .footer ul{
+        display: flex;
+        justify-content: center;
+        margin-top:50px;
+    }
+    
+    .footer ul li a img{
+        width: 25px;
+        height:25px;
+    }
+    
+    .footer ul li {
+        margin-left: 100px;
+    }
+    
+    ul li {
+        list-style-type: none;
+        font-size: x-small;
+    }
+    
+    
+    ul li a{
+        text-decoration: none;
+    }
+    
+    .b1{
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top: 57px;
+        border-radius: 20px;
+        background: transparent;
+    }
+}
+
+@media screen and (max-width: 769px) and (max-height: 1025px){   
+    .main{
+        background-color: #221c48;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .first-main{
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cinema{
+        display: flex;
+        width: 80%;
+        height: 265px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 11px;
+    }
+    
+    .main p{
+        position: absolute;
+        left: 136px;
+        top: 162px;
+        font-size: initial;
+        width: 220px;;
+    }
+    
+    .main button{
+        background-color: #B91515;
+        width: 200px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #B91515;
+        font-size: xx-large;
+        position: absolute;
+        left: 400px;
+        top: 500px;
+    }
+    
+    .play{
+        width: 15px;
+        height: 15px;
+        margin: 5px;
+        padding: 9px;
+        padding-left: 9px;
+    }
+    
+    .about{
+        width: 37px;
+        height: 42px;
+        background-color: #B91515;
+        border-radius: 5px;
+        border: 1px solid #B91515;
+        position: absolute;
+        top: 297px;
+        left: 279px;
+    }
+    
+    .aboutUs{
+        border: 1px solid #B91515;
+        background-color: #B91515;
+        font-size: small;
+        position: absolute;
+        left: 136px;
+        top: 297px;
+        text-decoration: none;
+        padding: 15px;
+        border-radius: 5px;
+        width: 13%;
+        height: 13px;
+        text-align: center;
+    }
+    
+    .trending{
+        font-size: initial;
+        margin-left: 10%;
+        background-color: #221c48;
+    }
+    
+    .second-main{
+        display: flex;
+        justify-content: center;
+        margin-top: 3%;
+    }
+    
+    .movies{
+        width: 83%;
+        background-color: #141032;
+        border-radius: 10px;
+    }
+    
+    .movies ul{
+        justify-content: center;
+        padding: 15px;
+    }
+    
+    .movie{
+        height: 194px;
+        width: 127px;
+        margin: 8px;
+    }
+    
+    .fourth{
+        font-size: initial;
+        margin-left: 10%;
+        padding: 10px;
+    }
+    
+    .third-main{
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        flex-direction: column;
+    }
+    
+    .industry{
+        background-color: #141032;
+        width: 80%;
+        align-self: center;
+        border-radius: 10px;
+    }
+    
+    .industry ul li img{
+        width: 550px;
+        margin-right: 50px;
+    }
+    
+    .industry ul ul{
+        display: flex;
+        padding: 30px;
+        flex-direction: column;
+    }
+    
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 20px;
+        background-color: #221c48;
+    }
+    
+    .footer hr{
+        width: 85%;
+        align-self: center;
+        margin: 30px;
+    }
+    
+    .footer ul{
+        display: flex;
+        justify-content: center;
+        margin-top:50px;
+    }
+    
+    .footer ul li a img{
+        width: 25px;
+        height:25px;
+    }
+    
+    .footer ul li {
+        margin-left: 100px;
+    }
+    
+    ul li {
+        list-style-type: none;
+        font-size: large;
+    }
+    
+    
+    ul li a{
+        text-decoration: none;
+    }
+    
+    .b1{
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top: 73px;
+        border-radius: 20px;
+        background: transparent;
+    }
+}
