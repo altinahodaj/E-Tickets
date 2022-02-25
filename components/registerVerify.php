@@ -10,7 +10,7 @@ if(isset($_POST['register-btn'])){
     $register->insertData();
 }
 else{
-    header("Location:../views/register.php");
+    header("Location:../views/signUp.php");
 }
 
 class Registration{
