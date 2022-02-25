@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: #191b1f;
+    font-family: century gothic;
+}
+.header *{
+    background-color:#141032;
+    
+}
+.header{
+    height:50px;
+    opacity: 0.8;
+}
+.header ul{
+    display: flex;
+    position: relative;
+    top:15px;
+    bottom:15px;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.header ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: large;
+}
+/*----------------------------*/
+.main{
+    background-color: #191b1f;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+table{
+    color:white;
+}
+.first-row td{
+    column-span:5;
+    text-align: center;
+    font-size: large;
+}
+td{
+    padding:30px;
+    border: 1px solid white;
+}
+table td a{
+    text-decoration: none;
+    color:burlywood;
+}
+/*-------------------------*/
+.footer{
+    display: flex;
+    color: white;
+    padding-top: 100px;
+    padding-left:6%;
+    padding-bottom: 50px;
+}
+.main-list{
+    display: flex;
+    list-style: none;
+}
+.inner-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-left:150px;
+}
+.footer ul li img{
+    width:120px;
+    height:30px;
+}
+#hr-separate{
+    width:80%;
+    margin-top:100px;
+    margin-left: 150px;
+}
+/*---------------------------*/
+.socials{
+    display: flex;
+    justify-content: center;
+    padding:30px;
+}
+.socials img{
+    width:50px;
+    height:50px;
+}
+
+/*Responsive for IPhone X*/
+@media only screen and (max-width:400px){
+    *{
+        font-size: xx-small;
+    }
+    .header ul li a{
+        font-size: small;
+    }
+    .footer{
+        padding:0;
+    }
+    #hr-separate{
+        margin-left: 40px;
+        margin-top:0;
+    }
+    .inner-list{
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    .footer ul li img{
+        width:40px;
+        height:15px;
+    }
+    .first-footer-ul li:nth-child(2){
+        display: none;
+    }
+    .main-list{
+        margin-left: 15px;
+    }
+    .socials img{
+        width: 30px;
+        height:30px;
+    }
+    td{
+        padding:0;
+        font-size: 5.5pt;
+    }
+}
+
+/*Responsive for IPad*/
+@media only screen and (min-width:750px) and (max-width:800px){
+    *{
+        font-size: small;
+    }
+    .footer{
+        padding:40px;
+    }
+    .inner-list{
+        margin-left: 40px;
+    }
+    #hr-separate{
+        margin-left: 10%;
+    }
+    .socials img{
+        height: 40px;
+        width: 40px;
+    }
+    td {
+        padding: 10px;
+    }
+}

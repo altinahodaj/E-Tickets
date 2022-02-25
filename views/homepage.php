@@ -3,6 +3,7 @@
     require_once '../components/articleMapper.php';
     session_start();
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
