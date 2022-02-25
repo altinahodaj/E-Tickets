@@ -47,9 +47,11 @@ p{
 
 .signup-form{
     display: flex;
-    flex-direction: column;
-    margin: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
     align-items: center;
+    
 }
 
 input{

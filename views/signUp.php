@@ -13,14 +13,17 @@
 	?>
         <div class="signup">
             <div class="right-div">
-                <form class="signup-form" onsubmit="return validate()">
+                <form class="signup-form" action="../components/registerVerify.php" method="POST" onsubmit="return validate()">
                     <h1>Sign Up</h1>
-                    <input id="name" type="text" placeholder="Name">
-                    <input id="lastname" type="text" placeholder="Last Name">
-                    <input id="email" type="text" placeholder="Email">
-                    <input id="password" type="password" placeholder="Password">
-                    <input id="creditcard" type="number" placeholder="Credit Card Number">
-                    <button class="signupbutton">Sign Up</button>
+                    <input id="name" name="register-name" type="text" placeholder="Name">
+                    <input id="lastname" name="register-lastname" type="text" placeholder="Last Name">
+                    <input id="username" name="register-username" type="text" placeholder="username">
+                    <input id="email" name="register-email" type="text" placeholder="Email">
+                    <input id="password" name="register-pass" type="password" placeholder="Password">
+                    <input id="adress" name="register-add" type="adress" placeholder="adress">
+                    <input id="creditcard" name="register-ccNo" type="number" placeholder="Credit Card Number">
+                    <input id="city" name="register-city" type="city" placeholder="city">
+                    <button name="register-btn" class="signupbutton">Sign Up</button>
                     <p>Already a member? <a class="login" href="./logIn.php">Log In</a></p>
                 </form>
             </div>
