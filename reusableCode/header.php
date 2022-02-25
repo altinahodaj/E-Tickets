@@ -20,8 +20,30 @@
             </div>
             <div class="rightheader-div">
                 <ul>
+                <?php 
+            if(isset($_SESSION['role']) && $_SESSION['role'] == 1){
+                ?>
+                 <li><a href="./dashboard.php">Dashboard</a></li>
+                 <li><a href="../components/logout.php">LogOut</a></li>
+            <?php
+            }
+            ?>
+                <?php
+            if(!(isset($_SESSION['role']) && $_SESSION['role'] == 0)){
+                ?>
                     <li><a href="./logIn.php">LogIn</a></li>
                     <li><a href="./signUp.php">SignUp</a></li>
+            <?php
+            }
+            ?>
+            <?php 
+            if(isset($_SESSION['role']) && $_SESSION['role'] == 0){
+                ?>
+                <li><a href="../components/logout.php">LogOut</a></li>
+            <?php
+            }
+            ?>
+            
                 </ul>
             </div>
         </div>
