@@ -29,7 +29,7 @@
             }
             ?>
                 <?php
-            if(!(isset($_SESSION['role']) && $_SESSION['role'] == 0)){
+            if(!(isset($_SESSION['role']) && $_SESSION['role'] == 0 )){
                 ?>
                     <li><a href="./logIn.php">LogIn</a></li>
                     <li><a href="./signUp.php">SignUp</a></li>
