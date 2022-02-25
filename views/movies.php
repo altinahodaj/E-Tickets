@@ -22,26 +22,26 @@
             </div>
 
             <div  class='imgdiv'>
-               <a href='./details.html'>
+               <a href='./details.php'>
                   <img class='photo' src="../media/detailsphoto1.jpg">
                </a>
             </div>
 
             <div  class='imgdiv'>
-               <a href='details2.html'>
+               <a href='details2.php'>
                   <img class='photo' src="../media/detailsphoto3.jpg">
                </a>
             </div>
 
             <div  class='imgdiv'>
-            <a href='details4.html'>
+            <a href='details4.php'>
                 <img class='photo' src="../media/moviephoto1.jpg">
             </a>
                  
             </div>
 
             <div class='imgdiv'>
-               <a href='details5.html'>
+               <a href='details5.php'>
                     <img class='photo' src="../media/moviephoto2.jpg">
                </a>
             </div>
