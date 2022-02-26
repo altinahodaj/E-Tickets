@@ -13,6 +13,7 @@
                 <ul>
                     <li><a href="./homepage.php"><strong>E - Tickets</strong></a></li>
                     <li><a href="./homepage.php">Home</a></li>
+                    <li><a href="./news.php">News</a></li>
                     <li><a href="./movies.php">Movies</a></li>
                     <li><a href="./contactUs.php">Contact Us</a></li>
                     <li><a href="./details.php">Details</a></li>
@@ -25,14 +26,6 @@
                 ?>
                  <li><a href="./dashboard.php">Dashboard</a></li>
                  <li><a href="../components/logout.php">LogOut</a></li>
-            <?php
-            }
-            ?>
-                <?php
-            if(!(isset($_SESSION['role']) && $_SESSION['role'] == 0 )){
-                ?>
-                    <li><a href="./logIn.php">LogIn</a></li>
-                    <li><a href="./signUp.php">SignUp</a></li>
             <?php
             }
             ?>

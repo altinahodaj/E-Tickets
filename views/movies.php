@@ -56,7 +56,7 @@
     <div class=comedyContainer>
 
             <div class='comedytextContainer'> 
-                 <p class='comedytext'>Comedy Movies to Watch Right Now</p>
+                 <p class='comedytext'><a href="./comedies.php#Comedies/">Comedy Movies to Watch Right Now</a></p>
             </div>
 
             <div class='photo2Container'>

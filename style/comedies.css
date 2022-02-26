@@ -1,0 +1,277 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: #191b1f;
+    font-family: century gothic;
+    color:white;
+}
+/*--------header---------*/
+.header{
+    height:50px;
+    opacity: 0.8;
+}
+.header ul{
+    display: flex;
+    position: relative;
+    top:15px;
+    bottom:15px;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.header ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: large;
+}
+/*-----------body-----------*/
+img{
+    width: 200px;
+    height: 200px;
+}
+
+#ul1 {
+    list-style-type: none;
+    margin-top: 30px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+#li1 a {
+    padding: 5px 5px;
+    text-decoration: none;
+    border-bottom: 1px solid #1e2125;
+}
+#li1 a:hover {
+    background-color: #555;
+}
+#p2{
+    font-style: italic;
+    color:rgb(211, 195, 195);
+}
+#pp{
+    text-align: center;
+    width: 630px;
+    padding-left: 110px; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:rgb(197, 195, 195);
+}
+h4{
+    color:rgb(231, 220, 220);
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    padding-top: 80px;
+}
+#insertProd{
+    width:150px;
+    height:30px;
+    background-color: white;
+    color: black;
+}
+#Comedies, #Actions, #Thriller, #Animated{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.list li{
+    color: white;
+    font-size: small;
+    text-align: center;
+    list-style-type: none;
+    width:200px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.list li img{
+    width: 200px;
+    height: 300px;
+    margin-top:40px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.list li a{
+    list-style-type: none;
+    color: rgb(223, 0, 0);
+    text-decoration: none;
+}   
+#description{
+    border-style: dashed;
+    border-style: 1px;
+    border-color: rgb(90, 89, 89);
+    width: 70%;
+    margin-left: 15%;
+}
+
+
+/*--------Footer------------*/
+.footer{
+    display: flex;
+    color: white;
+    padding-top: 100px;
+    padding-left:6%;
+    padding-bottom: 50px;
+}
+.main-list{
+    display: flex;
+    list-style: none;
+}
+.inner-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-left:150px;
+}
+.footer ul li img{
+    width:120px;
+    height:30px;
+}
+#hr-separate{
+    width:80%;
+    margin-top:100px;
+    margin-left: 150px;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    padding:30px;
+}
+.socials img{
+    width:50px;
+    height:50px;
+}
+
+/*------------ Responsive per iPhone X --------------*/
+@media only screen and (max-width:400px){
+*{
+    font-size: xx-small;
+}
+.header ul li a{
+    font-size: small;
+}
+/*----body-----*/
+#ul1 {
+    list-style-type: none;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+#pp {
+    text-align: center;
+    width: 300px;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(197, 195, 195);
+}
+#description {
+    border-style: dashed;
+    border-style: 1px;
+    border-color: rgb(90, 89, 89);
+    width: 85%;
+    margin-left: 7.5%;
+}
+#insertProd {
+    width: 80px;
+    height: 20px;
+}
+h4 {
+    color: rgb(231, 220, 220);
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    padding-top: 80px;
+}
+/*----footer----*/
+.footer{
+    padding:0;
+}
+#hr-separate{
+    margin-left: 40px;
+    margin-top:0;
+}
+.inner-list{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.footer ul li img{
+    width:40px;
+    height:15px;
+}
+.first-footer-ul li:nth-child(2){
+    display: none;
+}
+.main-list{
+    margin-left: 15px;
+}
+.socials img{
+    width: 30px;
+    height:30px;
+}
+}
+
+/*-------- Responsive per iPad ------------*/
+@media only screen and (min-width:760px) and (max-width:780px){
+    #ul1{
+        list-style-type: none;
+        margin-top: 30px;
+        padding-left: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-bottom: 100px;
+    }
+    #insertProd {
+        width: 120px;
+        height: 30px;
+        background-color: white;
+        margin: 5px;
+        color: black;
+    }
+    #pp {
+        text-align: center;
+        width: 500px;
+        padding-left: 110px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        color: rgb(197, 195, 195);
+        padding-left: 60px;
+    }
+    #description {
+        border-style: dashed;
+        border-style: 1px;
+        border-color: rgb(90, 89, 89);
+        width: 80%;
+        margin-left: 10%;
+    }
+    .list li{
+        width: auto;
+    }
+    /*footer*/
+    .footer{
+        padding:40px;
+        font-size: xx-small;
+    }
+    .inner-list {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        justify-content: space-evenly;
+        margin-left: 40px;
+    }
+    #hr-separate{
+        margin-left: 10%;
+    }
+    .socials img{
+        height: 40px;
+        width: 40px;
+    }
+}
