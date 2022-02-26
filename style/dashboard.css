@@ -1,33 +1,16 @@
 *{
-    margin:0;
-    padding:0;
-    background-color: #191b1f;
+    margin: 0;
+    padding: 0;
+    color: white;
     font-family: century gothic;
 }
-.header *{
-    background-color:#141032;
-    
-}
-.header{
-    height:50px;
-    opacity: 0.8;
-}
-.header ul{
-    display: flex;
-    position: relative;
-    top:15px;
-    bottom:15px;
-    justify-content: space-evenly;
-    list-style: none;
-}
-.header ul li a{
-    text-decoration: none;
-    color:white;
-    font-size: large;
+
+body{
+    background-color: #221c48;
 }
 /*----------------------------*/
 .main{
-    background-color: #191b1f;
+    background-color: #221c48;
     display: flex;
     justify-content: center;
     padding: 40px;

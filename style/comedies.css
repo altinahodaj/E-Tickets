@@ -1,29 +1,14 @@
 *{
-    margin:0;
-    padding:0;
-    background-color: #191b1f;
+    margin: 0;
+    padding: 0;
+    color: white;
     font-family: century gothic;
-    color:white;
 }
-/*--------header---------*/
-.header{
-    height:50px;
-    opacity: 0.8;
+
+body{
+    background-color: #221c48;
 }
-.header ul{
-    display: flex;
-    position: relative;
-    top:15px;
-    bottom:15px;
-    justify-content: space-evenly;
-    list-style: none;
-}
-.header ul li a{
-    text-decoration: none;
-    color:white;
-    font-size: large;
-}
-/*-----------body-----------*/
+
 img{
     width: 200px;
     height: 200px;

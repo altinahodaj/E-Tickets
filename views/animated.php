@@ -12,7 +12,7 @@
 <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comedies</title>
+    <title>E-Tickets</title>
     <link rel="stylesheet"  href="../style/comedies.css">
 <body>
     <?php
@@ -36,7 +36,7 @@
             <h4>Animated Movies</h4>
                 <div id="Comedies" > 
                         <?php
-                        $products = $mapper2->getProductsByCategory('comedy');
+                        $products = $mapper2->getProductsByCategory('animated');
                         foreach($products as $product){
                         ?>
                         <ul class="list">

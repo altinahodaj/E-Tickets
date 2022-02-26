@@ -10,7 +10,7 @@
  <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Details</title>
+    <title>E-Tickets</title>
     <link rel="stylesheet" href="../style/movies.css" type="text/css">
     
  </head>
@@ -89,7 +89,7 @@
             </div>
 
             <div class='actiontextContainer'> 
-                 <p class='actiontext'>Action Movies to Watch Right Now</p>
+               <p class='comedytext'><a href="./actions.php#Actions/">Action Movies to Watch Right Now</a></p>
             </div>
 
     </div>
@@ -98,7 +98,7 @@
     <div class=comedyContainer>  
 
             <div class='comedytextContainer'> 
-                 <p class='comedytext'>Triller Movies to Watch Right Now</p>
+               <p class='comedytext'><a href="./thriller.php#Thriller/">Thriller Movies to Watch Right Now</a></p>
             </div>
 
             <div class='photo2Container'>
@@ -130,7 +130,7 @@
 </div>
 
 <div class='actiontextContainer'> 
-     <p class='actiontext'>Animated Movies to Watch Right Now</p>
+   <p class='comedytext'><a href="./animated.php#Animated/">Animated Movies to Watch Right Now</a></p>
 </div>
 
 </div>

@@ -4,28 +4,6 @@
     background-color: #191b1f;
     font-family: century gothic;
 }
-
-.header{
-    height:50px;
-    opacity: 0.8;
-}
-.header ul{
-    display: flex;
-    position: relative;
-    top:15px;
-    bottom:15px;
-    justify-content: space-evenly;
-    list-style: none;
-}
-.header ul li a{
-    text-decoration: none;
-    color:white;
-    font-size: large;
-}
-.header *{
-    background-color:#141032;
-    
-}
 /*--------------------------------*/
 form{
     margin-top: 100px;
