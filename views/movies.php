@@ -60,13 +60,13 @@
             </div>
 
             <div class='photo2Container'>
-               <a href='details6.html'>
+               <a href='details6.php'>
                   <img class='photo' src="../media/comedy1.jpg">
                </a>     
             </div>
 
             <div class='photo2Container'> 
-            <a href='details7.html'>
+            <a href='details7.php'>
                   <img class='photo' src="../media/comedy2.jpg">
                </a>   
             </div>
@@ -76,14 +76,14 @@
     <div class=actionContainer>
 
             <div class='photo3Container'>
-            <a href='details9.html'>
+            <a href='details9.php'>
                 <img class='photo' src="../media/aksionphoto1.jpg">
             </a>
                  
             </div>
 
             <div class='photo3Container'> 
-            <a href='details8.html'>
+            <a href='details8.php'>
                  <img class='photo' src="../media/aksionphoto2.jpg">
             </a>
             </div>
@@ -102,13 +102,13 @@
             </div>
 
             <div class='photo2Container'>
-               <a href='details10.html'>
+               <a href='details10.php'>
                     <img class='photo' src="../media/triller1.jpg">
                </a>      
             </div>
 
             <div class='photo2Container'> 
-               <a href='details3.html'>
+               <a href='details3.php'>
                   <img class='photo' src="../media/detailsphoto5.jpg">
                </a>
             </div>
@@ -118,13 +118,13 @@
     <div class=actionContainer>
 
 <div class='photo3Container'>
-     <a href='details11.html'>
+     <a href='details11.php'>
            <img class='photo' src="../media/animated1.jpg">
      </a>   
 </div>
 
 <div class='photo3Container'> 
-<a href='details12.html'>
+<a href='details12.php'>
            <img class='photo' src="../media/animated2.jpg">
      </a>  
 </div>
