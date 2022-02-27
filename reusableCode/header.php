@@ -16,7 +16,6 @@
                     <li><a href="./news.php">News</a></li>
                     <li><a href="./movies.php">Movies</a></li>
                     <li><a href="./contactUs.php">Contact Us</a></li>
-                    <li><a href="./details.php">Details</a></li>
                 </ul>
             </div>
             <div class="rightheader-div">
