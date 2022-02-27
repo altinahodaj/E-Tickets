@@ -11,12 +11,12 @@ body{
 /*----------------------------*/
 .main{
     background-color: #221c48;
-    display: flex;
     justify-content: center;
     padding: 40px;
 }
 table{
     color:white;
+    margin-bottom: 20px;
 }
 .first-row td{
     column-span:5;

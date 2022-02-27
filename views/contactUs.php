@@ -31,18 +31,18 @@
 	</div>
 
     <div class='container3'>
-        <form onsubmit="return validate()">
+        <form action="../components/contactVerify.php" method="POST" onsubmit="return validate()">
             <label>Email:</label>
-            <input type="text" name='Email' id='emailinput' >
+            <input type="text" name='emailinput' id='emailinput' >
             <label>First Name:</label>
-            <input type="text" name='Name' id='nameinput' >
+            <input type="text" name='nameinput' id='nameinput' >
             <label>Last Name:</label>
-            <input type="text" name='LastName' id='lastNameinput'>
+            <input type="text" name='lastNameinput' id='lastNameinput'>
             <br/>
             <br/>
             <label>Message: </label><br>
-            <textarea id='input4' name='Message'></textarea>
-            <input type='submit' name='submit' value="Send" id="submit">
+            <textarea id='input4' name='input4'></textarea>
+            <input type='submit' name='contact-submit' value="Send" id="contact-submit">
         </form>
 	</div>
     <?php

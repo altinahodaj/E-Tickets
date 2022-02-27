@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 27, 2022 at 07:59 PM
+-- Generation Time: Feb 27, 2022 at 09:58 PM
 -- Server version: 10.4.19-MariaDB
 -- PHP Version: 8.0.6
 
@@ -146,7 +146,8 @@ CREATE TABLE `user` (
 INSERT INTO `user` (`userid`, `name`, `lastname`, `email`, `username`, `password`, `city`, `address`, `ccNo`, `role`) VALUES
 (9, 'Albiona', 'Berisha', 'albionaberisha20@gmail.com', 'Albiona', '$2y$10$aUsaEftC/xowZeAowpcjCeB9sgxwuKLUawpLOyAdSXRwzjKtda65m', 'Rahovec', 'Milaim-Morina', 4237489872, 1),
 (11, 'Altina', 'Hodaj', 'altinahodaj@gmail.com', 'altinahodaj', '$2y$10$Db.gzKudBxbAkdGR9mSOWOO54n/iA/2GORwcO69GqlIFpjTq94zlS', 'Prishtina', 'Dardani', 1204572, 1),
-(12, 'Era', 'Hasimja', 'erahasimja@gmail.com', 'erahasimja', '$2y$10$aIfWUF3cU06vnJ29NhAVduHeAlwjlPk.idsExplqVK0X6KenuREiK', 'Gjakove', 'Carshia', 21474562, 0);
+(12, 'Era', 'Hasimja', 'erahasimja@gmail.com', 'erahasimja', '$2y$10$aIfWUF3cU06vnJ29NhAVduHeAlwjlPk.idsExplqVK0X6KenuREiK', 'Gjakove', 'Carshia', 21474562, 0),
+(13, 'Endrit', 'Makolli', 'endritmakolli@gmail.com', 'endritmakolli', '$2y$10$eLUPOk1eYvAzbEm3zzWSZekisuazxinUMCzKQjYJUxO/GJ2X/0kFy', 'Prishtine', 'Dragodan', 5413555, 0);
 
 --
 -- Indexes for dumped tables
@@ -190,19 +191,19 @@ ALTER TABLE `homepage`
 -- AUTO_INCREMENT for table `news`
 --
 ALTER TABLE `news`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
 
 --
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `userid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `userid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
