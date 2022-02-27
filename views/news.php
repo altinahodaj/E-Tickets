@@ -20,8 +20,8 @@
     <div class="main">
         <div class="first-main">
             <p>
-                Këtu mund të gjeni katalogët e fundit të Oriflame.<br>
-                Eksploroni që të shihni produktet më të reja si dhe zbritjet për cdo sezonë!<br>
+                Këtu mund të gjeni filmat me te votuar.<br>
+                
             </p>
             <?php 
                     if(isset($_SESSION['role']) && $_SESSION['role'] == '1'){
@@ -52,6 +52,8 @@
             ?>
         </div>
     </div>
-
+    <?php
+        include("../reusableCode/footer.php");
+    ?>
 </body>
 </html>

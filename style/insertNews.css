@@ -19,7 +19,7 @@ form{
 input{
     width:500px;
     height:30px;
-    color:white;
+    color:black;
     border:none;
     border-bottom: 2px solid white;
 }
@@ -35,49 +35,9 @@ h2{
     height:40px;
     margin-top:40px;
     margin-left: 42%;
-    border:2px solid white;
-}
-/*-------------------------*/
-.footer{
-    display: flex;
-    color: white;
-    padding-top: 100px;
-    padding-left:6%;
-    padding-bottom: 50px;
-}
-.main-list{
-    display: flex;
-    list-style: none;
-}
-.inner-list{
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    justify-content: space-evenly;
-    margin-left:150px;
-}
-.footer ul li img{
-    width:120px;
-    height:30px;
-}
-#hr-separate{
-    width:80%;
-    margin-top:100px;
-    margin-left: 150px;
-}
-/*---------------------------*/
-.socials{
-    display: flex;
-    justify-content: center;
-    padding:30px;
-}
-.socials img{
-    width:50px;
-    height:50px;
+    border:2px solid black;
 }
 
-
-/*Responsive for IPhoneX*/
 @media only screen and (max-width:400px){
     *{
         font-size: xx-small;
@@ -123,7 +83,7 @@ h2{
     }
 }
 
-/*Page responsive for Tablet*/
+
 @media only screen and (min-width:750px) and (max-width:800px){
     *{
         font-size: small;

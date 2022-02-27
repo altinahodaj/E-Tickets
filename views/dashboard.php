@@ -56,5 +56,8 @@
             </tbody>
         </table>
     </div>
+    <?php
+        include("../reusableCode/footer.php");
+    ?>
 </body>
 </html>

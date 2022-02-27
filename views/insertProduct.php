@@ -27,5 +27,8 @@
             <input id="insert" class="submit" name='insert-product' type="submit" value="Insert">
         </form>
 </div>
+<?php
+        include("../reusableCode/footer.php");
+    ?>
 </body>
 </html>

@@ -25,5 +25,8 @@
             <input id="insert" class="submit" name='insert' type="submit" value="Insert">
         </form>
 </div>
+<?php
+        include("../reusableCode/footer.php");
+    ?>
 </body>
 </html>

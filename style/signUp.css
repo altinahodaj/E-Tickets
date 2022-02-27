@@ -17,12 +17,12 @@ body{
     width: 540px;
     height: 540px;
     margin-top: 80px;
-    margin-left: 20%;
+    margin-left: 18%;
 }
 
 .left-div{
     position: absolute;
-    left: 48%;
+    left: 55%;
     top: 80px;
 }
 
@@ -46,6 +46,7 @@ p{
 .leftimg{
     width: 540px;
     height: 540px;
+    margin-left: -6%;
 }
 
 .signup-form{
@@ -290,9 +291,9 @@ ul li a{
     .signup{
         background-color: #141032;
         width: 352px;
-        height: 770px;
+        height: 992px;
         margin-top: 90px;
-        margin-left: 160px;
+        margin-left: 230px;
     }
     
     .left-div{
@@ -336,6 +337,7 @@ ul li a{
     .leftimg{
         width: 352px;
         height: 270px;
+        margin-left: 20%;
     }
     
     .signup-form{
@@ -343,8 +345,10 @@ ul li a{
         flex-direction: column;
         margin: 50px;
         align-items: center;
+        margin-left: -8%;
+        margin-top: -158px;
     }
-    
+
     input{
         width: 220px;
         height: 30px;

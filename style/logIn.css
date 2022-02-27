@@ -79,15 +79,15 @@ input{
     width: 30px;
     height: 30px;
     position: absolute;
-    top: 312px;
-    left: 902px;
+    top: 253px;
+    left: 904px;
 }
 
 .passwordicon{
     width: 30px;
     height: 30px;
     position: absolute;
-    top: 391px;
+    top: 330px;
     left: 904px;
 }
 
@@ -95,8 +95,8 @@ input{
     width: 25px;
     height: 25px;
     position: absolute;
-    top: 596px;
-    left: 950px;
+    top: 538px;
+    left: 936px;
 }
 
 .loginbutton{
@@ -390,7 +390,7 @@ input{
         width: 20px;
         height: 20px;
         position: absolute;
-        top: 523px;
+        top: 475px;
         left: 276px;
     }
     
@@ -398,7 +398,7 @@ input{
         width: 20px;
         height: 20px;
         position: absolute;
-        top: 591px;
+        top: 544px;
         left: 276px;
     }
     
@@ -406,7 +406,7 @@ input{
         width: 20px;
         height: 20px;
         position: absolute;
-        top: 770px;
+        top: 723px;
         left: 307px;
     }
     

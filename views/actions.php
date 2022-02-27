@@ -32,6 +32,7 @@
                 <?php 
                     }
                 ?>
+                </ul>
             </div>
             <h4>Action Movies</h4>
                 <div id="Comedies" > 
@@ -56,5 +57,8 @@
                         ?>
             </div>
     </main>
+    <?php
+        include("../reusableCode/footer.php");
+        ?>
 </body>
 </html>
