@@ -10,17 +10,20 @@ body{
 
 
 .signup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     background-color: white;
     width: 540px;
     height: 540px;
     margin-top: 80px;
-    margin-left: 18%;
+    margin-left: 20%;
 }
 
 .left-div{
     position: absolute;
-    left: 53%;
-    top: 138px;
+    left: 48%;
+    top: 80px;
 }
 
 h1{
@@ -52,6 +55,18 @@ p{
     margin-bottom: 50px;
     align-items: center;
     
+}
+.signup-form h1{
+    margin-left: 200px;  
+}
+.signup-form input{
+    margin-left: 30px;  
+}
+.signup-form button{
+    margin-left: 160px;  
+}
+.signup-form p{
+    margin-left: 180px;  
 }
 
 input{
