@@ -141,8 +141,7 @@ body{
     .hitstextContainer{
       margin-bottom: 21%;
     }
-    
-    /*----------------------------------------*/
+
     
     .comedyContainer{
         display: flex;
@@ -174,7 +173,6 @@ body{
           margin-right: 8%;
       }
     
-      /*----------------------------------------*/
     
       .actionContainer{
         display: flex;
@@ -205,42 +203,102 @@ body{
           margin: 2%;
           margin-right: 8%;
       }
+}
+
+@media screen and (max-width: 769px) and (max-height: 1025px){
+  *{
+    font-size: small;
+  }
+  .hitsContainer{
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: space-between;
+      width: 70%;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 3%;
+      padding: 3%;
+      background-color: rgb(50, 21, 212);
+      border-radius: 20px;
+  }
+  .photo{
+      width: 75px;
+      height: 144px;
     
-      .footer{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        padding: 20px;
-        background-color: #221c48;
+  }
+  .imgdiv{
+      margin: 0.5%;
+  }
+  
+  .hitstext{
+    width: 80%;
+    font-size: 20px;
+  }
+  
+  .hitstextContainer{
+    margin-bottom: 21%;
+  }
+
+  
+  .comedyContainer{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: space-between;
+      width: 65%;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 4%;
+      padding: 1%;
+      background-color: rgb(9,3,44);
+  }
+  
+  .comedytextContainer{
+      position: relative;
+      right: 12%;
     }
-    
-    .footer hr{
-        width: 85%;
-        align-self: center;
-        margin: 30px;
+    .comedytext{
+      width: 80%;
+      font-size: 30px;
     }
-    
-    .footer ul{
-        display: flex;
-        justify-content: center;
-        margin-top:50px;
+  
+    .photo2Container{
+        border: 2px solid white;
+        padding: 4%;
+        margin: 2%;
+        margin-right: 8%;
     }
-    
-    .footer ul li a img{
-        width: 25px;
-        height:25px;
+  
+  
+    .actionContainer{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: space-between;
+      width: 65%;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 4%;
+      padding: 1%;
+      background-color: rgb(9,3,44);
+  }
+  
+  .actiontextContainer{
+      position: relative;
+      left: 16%;
     }
-    
-    .footer ul li {
-        margin-left: 100px;
+    .actiontext{
+      width: 80%;
+      font-size: 30px;
     }
-    
-    ul li {
-    list-style-type: none;
+  
+    .photo3Container{
+        border: 2px solid white;
+        padding: 4%;
+        margin: 2%;
+        margin-right: 8%;
     }
-    
-    ul li a{
-        text-decoration: none;
-    }
-    
 }

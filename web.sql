@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 27, 2022 at 09:58 PM
+-- Generation Time: Feb 27, 2022 at 10:08 PM
 -- Server version: 10.4.19-MariaDB
 -- PHP Version: 8.0.6
 
@@ -41,6 +41,27 @@ INSERT INTO `homepage` (`Id`, `type`, `description`) VALUES
 (1, 'oscar-ceremony', 'The 2021 Oscars ceremony was watched by the smallest audience the award show has ever received. On par with the performances of the Emmys and Golden Globes during the pandemic, the Academy Awards struggled to pull in mainstream viewers. Only 9.85 million viewers tuned into Sunday’s ceremony where Searchlight’s “Nomadland” took the top prize and Netflix walked away with the most wins. That’s a nearly 59% drop from the 23.6 million viewers that turned on their TVs for the program last year, according early fast national numbers released by Nielsen. The Academy’s third hostless show in a row scored a 1.9 rating among adults 18-49, a key demographic for advertisers, a 64% drop from 2020.'),
 (2, 'industries', 'Keeping perishable goods fresh for an extended period of duration is one of the prime concerns across all major industries. The search for sustainable and user-friendly packing options for the last few decades in the packaging industry have led to a wide range of peelable and resealable film packages. Most of the packages primarily include adhesive tapes and zips. In the recent times, companies have started utilizing Hot Melt Pressure Sensitive Adhesive (HMPSA) to implement this peelable and resealable feature in the packaging industry, which is estimated to further propel the peelable and resealable films market.'),
 (3, 'rules', 'The first rule of investing is “buy low, sell high.” Right now, few businesses are hitting lower lows than the movie theater industry, which could make it a great time to acquire a distressed asset ahead of a turnaround. That’s been true for the duration of the pandemic, and it’s still true now even as light can be dimly glimpsed at the end of the tunnel. The question is, is there an upside given the uncertain state of the entire film industry, and if so, for what kind of buyer? These are hard times for the movie theater industry. Domestic ticket sales in the US were down 80% in 2020 to $2.2 billion from a 2019 haul of $11.4 billion, according to Comscore SCOR -3.1%. You’d have to go back to the early 1980s to find a number that low. And industry leaders fear the hangover may persist even as the cloud of COVID-19 slowly starts to lift with the rollout of vaccines in 2021.');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `messages`
+--
+
+CREATE TABLE `messages` (
+  `id` int(11) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `lastname` varchar(255) NOT NULL,
+  `message` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `messages`
+--
+
+INSERT INTO `messages` (`id`, `email`, `name`, `lastname`, `message`) VALUES
+(3, 'altinahodaj1@gmail.com', 'Altina', 'Hodaj', 'test message');
 
 -- --------------------------------------------------------
 
@@ -160,6 +181,12 @@ ALTER TABLE `homepage`
   ADD PRIMARY KEY (`Id`);
 
 --
+-- Indexes for table `messages`
+--
+ALTER TABLE `messages`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `news`
 --
 ALTER TABLE `news`
@@ -186,6 +213,12 @@ ALTER TABLE `user`
 --
 ALTER TABLE `homepage`
   MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT for table `messages`
+--
+ALTER TABLE `messages`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `news`

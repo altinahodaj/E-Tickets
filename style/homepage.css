@@ -297,45 +297,7 @@ body{
         padding: 10px;
         flex-direction: column;
     }
-    
-    .footer{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        padding: 20px;
-        background-color: #221c48;
-    }
-    
-    .footer hr{
-        width: 85%;
-        align-self: center;
-        margin: 30px;
-    }
-    
-    .footer ul{
-        display: flex;
-        justify-content: center;
-        margin-top:50px;
-    }
-    
-    .footer ul li a img{
-        width: 25px;
-        height:25px;
-    }
-    
-    .footer ul li {
-        margin-left: 100px;
-    }
-    
-    ul li {
-        list-style-type: none;
-        font-size: x-small;
-    }
-    
-    
-    ul li a{
-        text-decoration: none;
-    }
+   
     
     .b1{
         width: 10px;
@@ -372,7 +334,7 @@ body{
     .main p{
         position: absolute;
         left: 136px;
-        top: 162px;
+        top: 115px;
         font-size: initial;
         width: 220px;;
     }
@@ -404,7 +366,7 @@ body{
         border-radius: 5px;
         border: 1px solid #B91515;
         position: absolute;
-        top: 297px;
+        top: 238px;
         left: 279px;
     }
     
@@ -414,7 +376,7 @@ body{
         font-size: small;
         position: absolute;
         left: 136px;
-        top: 297px;
+        top: 238px;
         text-decoration: none;
         padding: 15px;
         border-radius: 5px;
@@ -443,7 +405,7 @@ body{
     
     .movies ul{
         justify-content: center;
-        padding: 15px;
+        padding: 5px;
     }
     
     .movie{
@@ -483,50 +445,11 @@ body{
         flex-direction: column;
     }
     
-    .footer{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        padding: 20px;
-        background-color: #221c48;
-    }
-    
-    .footer hr{
-        width: 85%;
-        align-self: center;
-        margin: 30px;
-    }
-    
-    .footer ul{
-        display: flex;
-        justify-content: center;
-        margin-top:50px;
-    }
-    
-    .footer ul li a img{
-        width: 25px;
-        height:25px;
-    }
-    
-    .footer ul li {
-        margin-left: 100px;
-    }
-    
-    ul li {
-        list-style-type: none;
-        font-size: large;
-    }
-    
-    
-    ul li a{
-        text-decoration: none;
-    }
-    
     .b1{
         width: 10px;
         height: 10px;
         position: relative;
-        top: 73px;
+        top: 92px;
         border-radius: 20px;
         background: transparent;
     }

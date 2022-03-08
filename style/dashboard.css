@@ -8,7 +8,7 @@
 body{
     background-color: #221c48;
 }
-/*----------------------------*/
+
 .main{
     background-color: #221c48;
     justify-content: center;
@@ -30,104 +30,4 @@ td{
 table td a{
     text-decoration: none;
     color:burlywood;
-}
-/*-------------------------*/
-.footer{
-    display: flex;
-    color: white;
-    padding-top: 100px;
-    padding-left:6%;
-    padding-bottom: 50px;
-}
-.main-list{
-    display: flex;
-    list-style: none;
-}
-.inner-list{
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    justify-content: space-evenly;
-    margin-left:150px;
-}
-.footer ul li img{
-    width:120px;
-    height:30px;
-}
-#hr-separate{
-    width:80%;
-    margin-top:100px;
-    margin-left: 150px;
-}
-/*---------------------------*/
-.socials{
-    display: flex;
-    justify-content: center;
-    padding:30px;
-}
-.socials img{
-    width:50px;
-    height:50px;
-}
-
-/*Responsive for IPhone X*/
-@media only screen and (max-width:400px){
-    *{
-        font-size: xx-small;
-    }
-    .header ul li a{
-        font-size: small;
-    }
-    .footer{
-        padding:0;
-    }
-    #hr-separate{
-        margin-left: 40px;
-        margin-top:0;
-    }
-    .inner-list{
-        margin-left: 10px;
-        margin-top: 15px;
-    }
-    .footer ul li img{
-        width:40px;
-        height:15px;
-    }
-    .first-footer-ul li:nth-child(2){
-        display: none;
-    }
-    .main-list{
-        margin-left: 15px;
-    }
-    .socials img{
-        width: 30px;
-        height:30px;
-    }
-    td{
-        padding:0;
-        font-size: 5.5pt;
-    }
-}
-
-/*Responsive for IPad*/
-@media only screen and (min-width:750px) and (max-width:800px){
-    *{
-        font-size: small;
-    }
-    .footer{
-        padding:40px;
-    }
-    .inner-list{
-        margin-left: 40px;
-    }
-    #hr-separate{
-        margin-left: 10%;
-    }
-    .socials img{
-        height: 40px;
-        width: 40px;
-    }
-    td {
-        padding: 10px;
-    }
 }

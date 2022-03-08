@@ -13,8 +13,8 @@
     <body>
         <div class="signup">
             <div class="right-div">
+                <h1>Sign Up</h1>
                 <form class="signup-form" action="../components/registerVerify.php" method="POST" onsubmit="return validate()">
-                    <h1>Sign Up</h1>
                     <input id="name" name="register-name" type="text" placeholder="Name">
                     <input id="lastname" name="register-lastname" type="text" placeholder="Last Name">
                     <input id="username" name="register-username" type="text" placeholder="username">
